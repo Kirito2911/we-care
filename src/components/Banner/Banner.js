@@ -9,7 +9,7 @@ export function Banner (props){
                Percepções
             </div>
             <div className = "setence">
-               We care: empoderando pessoas pessoas LGBTQI+!
+               We care: empoderando pessoas LGBTQI+!
             </div>
             
          </div> 
