@@ -1,0 +1,32 @@
+.banner{
+    background-color: blue;
+    width: 100vw;
+    height: 55vh;
+    display: flex;
+    align-items: end;
+    
+}
+.slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: aliceblue;
+    height: 50%;
+    width: 70%;
+    padding-top: 30px;
+    text-align: left;
+}
+.setence{
+    margin-left: 5vw;
+    font-size: 2.5em;
+    font-weight: 800;
+}
+.word{
+    margin-left: 5vw;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #a320ce;
+    color: white;
+    padding: 1.5px 5px;
+    text-transform: uppercase;
+}
