@@ -1,0 +1,29 @@
+.bannerCommunity{ 
+    width: 100%;
+    background-color: red;
+    height: 21vh;
+}
+.sloganCommunity{
+    width: 60%;
+    background-color: white;
+    height: 100%;
+    border-radius: 0px 120px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+.titleCommunity{
+    width: 7.5vw;
+    background-color: #a320ce;
+    color: white;
+    margin-left: 8vw;
+    margin-top: 2vh;
+    font-weight: 600;
+}
+.sentenceCommunity{
+    color: #5347C5;
+    margin-left: 8vw;
+    font-size: 2.2em;
+    font-weight: 700;
+}
