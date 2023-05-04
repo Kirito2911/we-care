@@ -8,16 +8,16 @@
     
 }
 .slogan{
-    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
+    /* -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
     -webkit-mask-image: linear-gradient(to right, black 40%, transparent 120%);
-    mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
-    mask-image: linear-gradient(to right, black 40%, transparent 120%);
+    mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent)); */
+    background: linear-gradient(to right, rgb(255, 255, 255) 40%, transparent 120%);
 
     border-radius: 0px 700px 0px 0px;
     display: flex;
     flex-direction: column;
     align-items: start;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     height: 50%;
     width: 70%;
     padding-top: 30px;
