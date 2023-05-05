@@ -5,20 +5,46 @@
     display: flex;
 }
 .description{
-    background-color: red;
     width: 20vw;
-    height: 20vh;
-    padding-top: 5vh;
     display: flex;
     flex-direction: column;
     align-items: start;
     margin-left: 3vw;
     margin-top: 10vh;
 }
-/* .titleToplist{
+.titleToplist{
     color: #5347C5;
-    margin-left: 3vw;
-    margin-top: ;
-    font-size: ;
-    font-weight: ;
-} */
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.text{
+    color: black;
+    text-align: left;
+    margin-top: 2vh;
+}
+.picture{
+    background-color: red;
+    width: 23vw;
+    height: 30vh;
+    margin-left: 2vw;
+    margin-top: 10vh;
+}
+.topics{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.titleTopics{
+    color: #5347C5;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-left: 2vw;
+    margin-top: 4vh;
+}
+.list{
+    background-color: red;
+    width: 48.5vw;
+    height: 28vh;
+    margin-left: 2vw;
+    margin-top: 4vh;
+}

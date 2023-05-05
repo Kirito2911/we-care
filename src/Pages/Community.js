@@ -5,7 +5,8 @@ export function Community(){
     return(
         <div>
             <BannerCommunity></BannerCommunity>
-            <Toplist></Toplist>
+            <Toplist title="LBQ Connect"></Toplist>
+            <Toplist title="Programa Trans"></Toplist>
         </div>
     )
 }
