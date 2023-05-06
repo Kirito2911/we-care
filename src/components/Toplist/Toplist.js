@@ -5,9 +5,7 @@ export function Toplist(props){
         <div className="toplist">
             <div className="description">
                 <div className="titleToplist">{props.title}</div>
-                <div className="text">LBQ Connect é um programa feminista global que
-                visa impulsionar o trabalho e a visibilidade do ativismo lésbico,
-                bissexual e queer em todo o mundo.</div>
+                <div className="text">{props.textTop}</div>
 
             </div>
             <div className="picture"></div>
