@@ -1,6 +1,6 @@
 import { BannerCommunity } from "../components/BannerCommunity/BannerCommunity";
 import { Toplist } from "../components/Toplist/Toplist";
-
+import { Baseboard } from "../components/Baseboard/Baseboard";
 export function Community(){
     return(
         <div>
@@ -10,6 +10,7 @@ export function Community(){
                 bissexual e queer em todo o mundo."></Toplist>
             <Toplist title="Programa Trans" textTop ="Programa trans é uma programa com intuito de ajudar
             as pessoas trans com apoio emocional, inserção e oferecer varias oportunidades."></Toplist>
+            <Baseboard></Baseboard>
         </div>
     )
 }

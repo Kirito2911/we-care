@@ -1,5 +1,8 @@
+import { RepComp } from "../components/RepComp/RepComp";
+
+
 export function Republic(){
-    return(
-        <></>
+    return(            
+            <RepComp></RepComp>  
     )
 }

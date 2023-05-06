@@ -1,6 +1,6 @@
-import './Republic.css';
+import './RepComp.css';
 
-export function Republic(){
+export function RepComp(){
     return(
         <div className="republic">
             <div className="repTitle">Repúblicas</div>
@@ -35,7 +35,6 @@ export function Republic(){
                     <div className="titleNews">LGBTQ vive em conflito e crise</div>
                 </div>
             </div>
-
         </div>
     )
 }
