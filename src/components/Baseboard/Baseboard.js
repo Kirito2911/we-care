@@ -5,7 +5,7 @@ export function Baseboard(){
     return(
         <div className = 'baseboard'>
             <div className='partners'>
-                <div className = 'title'>PARCEIRIAS</div>
+                <div className = 'title'>PARCERIAS</div>
                 <div className = 'links'>
                     <div className = 'link'>Programa Trans Global</div>
                     <div className = 'link'>LBQ Connect</div>

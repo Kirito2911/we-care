@@ -51,3 +51,26 @@
     justify-content: center;
     border-radius: 15px 15px 15px 15px;
 }
+.news{
+    display: flex;
+    margin-top: 2vh;
+    margin-left: 6vw;
+    gap: 3vw;
+}
+.new{
+    display: flex;
+    flex-direction: column;
+}
+.picRep{
+    background-color: red;
+    width: 27vw;
+    height: 30vh;
+    display: flex;
+    align-items: start;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.desc{
+    margin-left: 2vw;
+    background-color: #e4e4fe;
+}
