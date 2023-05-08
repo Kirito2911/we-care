@@ -7,13 +7,13 @@ export function RepComp(){
             <div className="find">
                 <div className="theme">
                     <div className="category">Tema</div>
-                    <div className="label">Todos os Tópicos</div>
+                    <div className="labelRep">Todos os Tópicos</div>
                 </div>
                 <div className="theme">
                     <div className="category">País/Região</div>
-                    <div className="label">Todas as regiões/países</div>
+                    <div className="labelRep">Todas as regiões/países</div>
                 </div>
-                <div className="button">Procurar</div>
+                <div className="buttonSearch">Procurar</div>
             </div>
             <div className="news">
                 <div className="new">

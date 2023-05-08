@@ -12,13 +12,42 @@
     margin-left: 10vh;
     margin-top: 3vh;
     width: 90vw;
-    height: 20vh;
+    height: 16vh;
 }
 .theme{
     display: flex;
     flex-direction: column;
+    align-items: start;
 }
 .category{
+    margin-top: 2vh;
+    margin-left: 2vw;
+    font-weight: 700;
     font-size: 0.8em;
-
+}
+.labelRep{
+    margin-left: 2vw;
+    width: 19vw;
+    height: 5vh;
+    display: flex;
+    padding-left: 2vw;
+    padding-top: 1vh;
+    background-color: white;
+    border-radius: 5px 5px 5px 5px;
+    outline-style: auto;
+    outline-color: black;
+    margin-top: 1vh;
+    color: gray;
+}
+.buttonSearch{
+    margin-left: 35vw;
+    margin-top: 6.5vh;
+    background-color: blue;
+    color: white;
+    height: 4vh;
+    width: 8vw;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px 15px 15px 15px;
 }
