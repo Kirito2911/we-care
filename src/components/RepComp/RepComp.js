@@ -4,7 +4,8 @@ import React from 'react';
 
 export function RepComp(){
     const [age, setAge] = React.useState('');
-    const [option, setOption] = React.useState(["Manaus", "São Paulo"]);
+    const [option, setOption] = React.useState(["Recentes", "Antigos", "Tudo"]);
+    const [city, setCity] = React.useState(["Manaus", "São Paulo", "Rio Grande do Sul"]);
   const handleChange = (event) => {
     setAge(event.target.value);
   };
@@ -12,23 +13,35 @@ export function RepComp(){
         <div className="republic">
             <div className="repTitle">Repúblicas</div>
             <div className="find">
-                <FormControl fullWidth>
-  <InputLabel id="demo-simple-select-label">Age</InputLabel>
-  <Select
-    labelId="demo-simple-select-label"
-    id="demo-simple-select"
-    value={age}
-    label="Age"
-    onChange={handleChange}
-    sx={{backgroundColor: "white"}}
-  >
-    {option.map((value)=>{return <MenuItem value={value}>{value}</MenuItem>})}
-  </Select>
-</FormControl>
-                <div className="theme">
-                    <div className="category">País/Região</div>
-                    <div className="labelRep">Todas as regiões/países</div>
+                <div className = "selects">
+                    <FormControl fullWidth>
+                    <InputLabel id="demo-simple-select-label">Notícias</InputLabel>
+                    <Select
+                        labelId="demo-simple-select-label"
+                        id="demo-simple-select"
+                        value={age}
+                        label="Notícias"
+                        onChange={handleChange}
+                        sx={{backgroundColor: "white"}}
+                    >
+                        {option.map((value)=>{return <MenuItem value={value}>{value}</MenuItem>})}
+                    </Select>
+                    </FormControl>
+                    <FormControl fullWidth>
+                        <InputLabel id="demo-simple-select-label">Pais/região</InputLabel>
+                        <Select
+                            labelId="demo-simple-select-label"
+                            id="demo-simple-select"
+                            value={age}
+                            label="Pais/região"
+                            onChange={handleChange}
+                            sx={{backgroundColor: "white"}}
+                        >
+                            {city.map((value)=>{return <MenuItem value={value}>{value}</MenuItem>})}
+                        </Select>
+                    </FormControl>
                 </div>
+                
                 <div className="buttonSearch">Procurar</div>
             </div>
             <div className="news">
@@ -50,6 +63,7 @@ export function RepComp(){
                     </div>
                     <div className="titleNews">LGBTQ vive em conflito e crise</div>
                 </div>
+                
             </div>
         </div>
     )
