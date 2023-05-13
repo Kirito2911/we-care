@@ -1,8 +1,12 @@
 import { RepComp } from "../components/RepComp/RepComp";
+import { Baseboard } from "../components/Baseboard/Baseboard";
 
 
 export function Republic(){
     return(            
-            <RepComp></RepComp>  
+        <div>
+            <RepComp></RepComp> 
+            <Baseboard></Baseboard>
+        </div>
     )
 }

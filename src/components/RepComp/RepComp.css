@@ -47,7 +47,7 @@
     margin-left: 2vw;
 }
 .buttonSearch{
-    margin-left: 35vw;
+    margin-left: 19vw;
     background-color: blue;
     color: white;
     height: 4vh;
@@ -78,6 +78,16 @@
     flex-direction: column;
 }
 .desc{
-    margin-left: 2vw;
+    margin-left: 0vw;
     background-color: #e4e4fe;
+    width: 15vw;
+    height: 6vh;
+    justify-content: center;
+    display: flex;
+    color: #5347C5;
+    font-weight: 700;
+}
+.titleNews{
+    color: #5347C5;
+    font-weight: 600;
 }
