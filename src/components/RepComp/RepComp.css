@@ -86,6 +86,7 @@
     display: flex;
     color: #5347C5;
     font-weight: 700;
+    align-items: center;
 }
 .titleNews{
     color: #5347C5;
