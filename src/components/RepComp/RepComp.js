@@ -49,19 +49,22 @@ export function RepComp(){
                     <div className="picRep">
                         <div className="desc">DIREITOS HUMANOS</div>
                     </div>
-                    <div className="titleNews">Relatório de Impacto do Fundo</div>
+                    <div className="titleNews">Relatório de Impacto do Fundo: conheça como o WE-CARE resgatou e transformou a vida de várias
+                                                pessoas LGBT+</div>
                 </div>
                 <div className="new">
                     <div className="picRep">
                         <div className="desc">DISCRIMINAÇÃO LEGAL</div>
                     </div>
-                    <div className="titleNews">Uma montanha em meus ombros:</div>
+                    <div className="titleNews">Uma montanha em meus ombros: conheça a história de uma pessoa tentava tomar coragem
+                                                para revelar sua verdadeira identidade aos seus pais</div>
                 </div>
                 <div className="new">
                     <div className="picRep">
                         <div className="desc">SAÚDE MENTAL</div>
                     </div>
-                    <div className="titleNews">LGBTQ vive em conflito e crise</div>
+                    <div className="titleNews">LGBTQ vive em conflito e crise: conheça os tipos de preconceitos dentro da comunidade
+                                                e como combater eles</div>
                 </div>
                 
             </div>

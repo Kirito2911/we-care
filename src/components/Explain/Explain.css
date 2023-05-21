@@ -1,0 +1,30 @@
+.usBanner{
+    background-color: white;
+    height: 55vh;
+    display: flex;
+    
+}
+.tittleUs{
+    margin-top: 3vh;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    }
+/* .us{
+    display: flex;
+    align-items: center;
+} */
+.picUs{
+    /* margin-left: 20vw; */
+    margin-top: 2vh;
+    width: 20vw;
+    height: 30vh;
+}
+.descUs{
+    font-size: 0.65em;
+    margin-left: 2vw;
+    font-weight: 600;
+    width: 30vw;
+    text-align: justify;
+}

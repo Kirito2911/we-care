@@ -22,7 +22,7 @@
 .links{
     display: flex;
     font-weight: 700;
-    color: #5347C5;
+    color: #000036;
     gap: 6vw;     
 }
 
@@ -53,5 +53,10 @@
     width: 20px;
     height: 20px;
     background-color: white;
+    border-radius: 16px;
+}
+.iconsSocial{
+    width: 20px;
+    height: 20px;
     border-radius: 16px;
 }

@@ -13,13 +13,13 @@
     margin-top: 10vh;
 }
 .titleToplist{
-    color: #5347C5;
+    color: #000036;
     font-size: 1.5em;
     font-weight: 700;
 }
 .text{
     color: black;
-    text-align: left;
+    text-align: justify;
     margin-top: 2vh;
 }
 .picture{
@@ -35,7 +35,7 @@
     align-items: start;
 }
 .titleTopics{
-    color: #5347C5;
+    color: #000036;
     font-size: 1.2em;
     font-weight: 700;
     margin-left: 2vw;

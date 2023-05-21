@@ -1,5 +1,9 @@
 import './Baseboard.css'
-
+import IconFb from '../../assets/facebook_icon.jpg'
+import IconInsta from '../../assets/insta_icon.jpg'
+import IconLink from '../../assets/linkedin_icon.jpg'
+import IconTt from '../../assets/twitter_icon.jpg'
+import IconYt from '../../assets/youtube_icon.jpg'
 
 export function Baseboard(){
     return(
@@ -14,11 +18,11 @@ export function Baseboard(){
             <div className='social'>
                 <div className = 'contact'> Fale conosco </div>
                 <div className= 'socialButtons'>
-                    <div className= 'socialButton'> F </div>
-                    <div className= 'socialButton'> T </div>
-                    <div className= 'socialButton'> Y </div>
-                    <div className= 'socialButton'> L </div>
-                    <div className= 'socialButton'> I </div>
+                    <div className= 'socialButton'><img className = 'iconsSocial' src = {IconFb}/></div>
+                    <div className= 'socialButton'><img className = 'iconsSocial' src = {IconInsta}/></div>
+                    <div className= 'socialButton'><img className = 'iconsSocial' src = {IconLink}/></div>
+                    <div className= 'socialButton'><img className = 'iconsSocial' src = {IconTt}/></div>
+                    <div className= 'socialButton'><img className = 'iconsSocial' src = {IconYt}/></div>
                 </div>
             </div>
 

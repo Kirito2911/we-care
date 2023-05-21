@@ -4,7 +4,7 @@
 .repTitle{
     font-weight: 700;
     font-size: 1.7em;
-    color: #5347C5;
+    color: #000036;
 }
 .find{
     background-color: #e4e4fe;
@@ -84,11 +84,15 @@
     height: 6vh;
     justify-content: center;
     display: flex;
-    color: #5347C5;
+    color: #000036;
     font-weight: 700;
     align-items: center;
 }
 .titleNews{
-    color: #5347C5;
+    color: #000036;
+    width: 27vw;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    text-align: justify;    
 }
