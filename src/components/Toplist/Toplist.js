@@ -16,7 +16,7 @@ export function Toplist(props){
       var aux = open;
       console.log("Chamado", x)
       aux[x] = !aux[x];
-      setOpen(aux);
+      setOpen([... aux]);
       console.log(aux)
     };
   
