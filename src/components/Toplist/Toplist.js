@@ -14,10 +14,9 @@ export function Toplist(props){
 
     const handleClick = (x) => {
       var aux = open;
-      console.log("Chamado", x)
       aux[x] = !aux[x];
+      aux.map((value, index) => {if(index != x) aux[index] = false})
       setOpen([... aux]);
-      console.log(aux)
     };
   
     return(
@@ -26,7 +25,8 @@ export function Toplist(props){
                 <div className="titleToplist">{props.title}</div>
                 <div className="text">{props.textTop}</div>
             </div>
-            <div className="picture"></div>
+            <div className="picture" style={{backgroundImage: "url("+props.data.img+")", backgroundSize: "cover"}}>
+            </div>
             <div className="topics">
                 <div className="titleTopics">Destaques do programa</div>
                 <div className="list">
@@ -39,36 +39,37 @@ export function Toplist(props){
                     </ListSubheader>
                   }
                 >
-                  <ListItemButton onClick={() => {handleClick(0)}}>
-                    <ListItemText primary="Sent mail" />
+                  <ListItemButton className='bottomBorder' onClick={() => {handleClick(0)}}>
+                    <ListItemText primary="Por que?" />
                     {open[0] ? <ExpandLess /> : <ExpandMore />}
                   </ListItemButton>
                   <Collapse in={open[0]} timeout="auto" unmountOnExit>
                     <List component="div" disablePadding>
                       <ListItemButton sx={{ pl: 4 }}>
-                        <ListItemText primary="Vasco" />
+                        <ListItemText primary={props.data.subtopic} />
                       </ListItemButton>
                     </List>
                   </Collapse>
-                  <ListItemButton onClick={() => {handleClick(1)}}>
-                    <ListItemText primary="Drafts" />
+                  <ListItemButton className='bottomBorder' onClick={() => {handleClick(1)}}>
+                    <ListItemText primary="Quem?" />
                     {open[1] ? <ExpandLess /> : <ExpandMore />}
                   </ListItemButton>
                   <Collapse in={open[1]} timeout="auto" unmountOnExit>
                     <List component="div" disablePadding>
                       <ListItemButton sx={{ pl: 4 }}>
-                        <ListItemText primary="Vasco" />
+                        <ListItemText primary={props.data.subtopic2} />
                       </ListItemButton>
                     </List>
                   </Collapse>
-                  <ListItemButton onClick={() => {handleClick(2)}}>
-                    <ListItemText primary="Inbox" />
+                  <ListItemButton className = 'bottomBorder' onClick={() => {handleClick(2)}}>
+                    
+                    <ListItemText primary="Junte-se ao programa" />
                     {open[2] ? <ExpandLess /> : <ExpandMore />}
                   </ListItemButton>
                   <Collapse in = {open[2]} timeout="auto" unmountOnExit>
                     <List component="div" disablePadding>
                       <ListItemButton sx={{ pl: 4 }}>
-                        <ListItemText primary="Starred" />
+                        <ListItemText primary={props.data.subtopic3} />
                       </ListItemButton>
                     </List>
                   </Collapse>

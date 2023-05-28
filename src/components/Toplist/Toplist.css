@@ -47,3 +47,9 @@
     margin-left: 2vw;
     margin-top: 4vh;
 }
+.bottomBorder{
+    border-bottom: 2px solid #000036 !important;
+}
+.css-rnzbkc-MuiList-root {
+    padding-bottom: 0px !important;
+}

@@ -2,7 +2,7 @@ import { FormControl, InputLabel, MenuItem, Select } from '@mui/material';
 import './RepComp.css';
 import React from 'react';
 
-export function RepComp(){
+export function RepComp(props){
     const [age, setAge] = React.useState('');
     const [option, setOption] = React.useState(["Recentes", "Antigos", "Tudo"]);
     const [city, setCity] = React.useState(["Manaus", "São Paulo", "Rio Grande do Sul"]);
@@ -45,28 +45,16 @@ export function RepComp(){
                 <div className="buttonSearch">Procurar</div>
             </div>
             <div className="news">
+                {props.data.map(value =>{
+                return(
                 <div className="new">
-                    <div className="picRep">
-                        <div className="desc">DIREITOS HUMANOS</div>
+                    <div className="picRep" style={{backgroundImage: "url("+value.data.img+")", backgroundSize: "cover"}}>
+                        <div className="desc">{value.data.title}</div>
                     </div>
-                    <div className="titleNews">Relatório de Impacto do Fundo: conheça como o WE-CARE resgatou e transformou a vida de várias
-                                                pessoas LGBT+</div>
+                    <div className="titleNews">{value.data.alt}</div>
                 </div>
-                <div className="new">
-                    <div className="picRep">
-                        <div className="desc">DISCRIMINAÇÃO LEGAL</div>
-                    </div>
-                    <div className="titleNews">Uma montanha em meus ombros: conheça a história de uma pessoa tentava tomar coragem
-                                                para revelar sua verdadeira identidade aos seus pais</div>
-                </div>
-                <div className="new">
-                    <div className="picRep">
-                        <div className="desc">SAÚDE MENTAL</div>
-                    </div>
-                    <div className="titleNews">LGBTQ vive em conflito e crise: conheça os tipos de preconceitos dentro da comunidade
-                                                e como combater eles</div>
-                </div>
-                
+                    )
+                })}
             </div>
         </div>
     )
