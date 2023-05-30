@@ -47,4 +47,18 @@ export async function getDataRepublic () {
   
       return data;
   }
+  export async function getDataEvent() {
+    const querySnapshot = await getDocs(collection(db, "event"));
+      let data = []
+      querySnapshot.forEach((doc) => {
+        data.push(
+          {
+            "id":doc.id,
+            "data":doc.data()
+          }
+        )
+      });
+  
+      return data;
+  }
   

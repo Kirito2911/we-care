@@ -1,0 +1,54 @@
+.event{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+.oneEvent{
+    margin-left: 5vw;
+    display: flex;
+    background-color: #f3f5ff;
+
+    width: 80vw;
+    gap: 10vh;
+}
+.imgEvent{
+    min-width: 15vw;
+    background-color: aqua;
+    display: flex;
+    height: 20vh;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.titleEvent{
+    background-color: #e2d4ec ;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #3c0171 
+}
+.descEvent{
+    margin-top: -3vh;
+    color: #3f058e;
+    font-weight: 600;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+.infoEvent{
+    display: flex;
+    align-items: end;
+    margin-bottom: 2.5vh;
+    margin-right: 2vw;
+    font-weight: 700;
+    color: #3f058e;
+}
+.dataEvent{
+    margin-left: -0.5vw;
+}
+.iconEvent{
+    display: flex; 
+    width: 3vw;
+    height: 3vh;
+}
