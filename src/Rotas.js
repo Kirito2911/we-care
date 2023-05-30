@@ -10,7 +10,6 @@ const Rotas = () => {
    return(
     <Routes>
         <Route element = {<Home></Home> }  path="/" exact/>
-        <Route element = {<AboutUs></AboutUs> }  path="/about-us"/>
         <Route element = {<Community></Community>}  path="/community"/>
         <Route element = {<Republic></Republic> }  path="/republic"/>
         <Route element = {<Events></Events>}  path="/events"/>

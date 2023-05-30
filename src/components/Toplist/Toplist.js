@@ -40,7 +40,7 @@ export function Toplist(props){
                   }
                 >
                   <ListItemButton className='bottomBorder' onClick={() => {handleClick(0)}}>
-                    <ListItemText primary="Por que?" />
+                    <ListItemText primary="Por que existimos?" />
                     {open[0] ? <ExpandLess /> : <ExpandMore />}
                   </ListItemButton>
                   <Collapse in={open[0]} timeout="auto" unmountOnExit>
@@ -51,7 +51,7 @@ export function Toplist(props){
                     </List>
                   </Collapse>
                   <ListItemButton className='bottomBorder' onClick={() => {handleClick(1)}}>
-                    <ListItemText primary="Quem?" />
+                    <ListItemText primary="Quem somos?" />
                     {open[1] ? <ExpandLess /> : <ExpandMore />}
                   </ListItemButton>
                   <Collapse in={open[1]} timeout="auto" unmountOnExit>

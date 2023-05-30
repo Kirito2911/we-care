@@ -20,8 +20,7 @@ export function Header (props){
             <div className="buttons">
                 <div className='button'><Link to ='/events'>Eventos</Link></div>   
                 <div className='button'><Link to ='/republic'>Repúblicas</Link></div>   
-                <div className='button'><Link to ='/community'>Comunidades</Link></div>   
-                <div className='button'><Link to ='/about-us'>Sobre nós</Link></div>      
+                <div className='button'><Link to ='/community'>Comunidades</Link></div>      
             </div>
             
             <div className='search'><Search></Search> </div>

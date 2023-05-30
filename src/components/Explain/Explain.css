@@ -4,17 +4,19 @@
     display: flex;
     
 }
-.tittleUs{
-    margin-top: 3vh;
+.titleUs{
+    margin-top: 6vh;
     font-size: 1.5em;
-    display: flex;
-    flex-direction: column;
     font-weight: 700;
+    align-items: start;
+    margin-left: 10vw;
     }
-/* .us{
+.us{
+    margin-left: 0vw;
     display: flex;
     align-items: center;
-} */
+    margin-left: -15vw;
+}
 .picUs{
     /* margin-left: 20vw; */
     margin-top: 2vh;
@@ -22,9 +24,9 @@
     height: 30vh;
 }
 .descUs{
-    font-size: 0.65em;
+    font-size: 1.3em;
     margin-left: 2vw;
     font-weight: 600;
-    width: 30vw;
+    width: 55vw;
     text-align: justify;
 }

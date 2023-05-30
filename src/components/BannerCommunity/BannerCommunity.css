@@ -1,6 +1,7 @@
 .bannerCommunity{ 
     width: 100%;
-    background-color: red;
+    background-image: url("../../assets/wecare\ \(1\).jpg");
+    background-size: cover;
     height: 21vh;
 }
 .sloganCommunity{
